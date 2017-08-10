@@ -1,7 +1,7 @@
 # README
 
 ## A faire : 
-- limitation des charactères (140 max)
+- limitation des caractères (140 max)
 - flash d'erreur si texte non conforme
 
 ## Fait :
