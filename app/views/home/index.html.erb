@@ -1,0 +1,14 @@
+<div class="center">
+    <h1>Welcome to the Marina Twitter Bot&trade;</h1>
+    <p>
+        Please enter your tweet below :
+    </p>
+</div>
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <%= form_tag({controller: "home", action: "index"}, method: "get") do %>
+                <%= text_field_tag(:tweet_text) %>
+                <%= submit_tag("Tweet", class: "btn btn-primary") %>
+        <% end %>
+    </div>
+</div>
